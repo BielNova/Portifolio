@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     console.log("Portfolio Loaded Successfully!");
 
-    // Efeito para animação de scroll
     const hero = document.querySelector('.hero');
     hero.classList.add('fade-in');
 
