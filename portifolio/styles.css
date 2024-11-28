@@ -264,6 +264,7 @@ nav ul li a {
     text-decoration: none;
 }
 
+/* Seção de Projetos */
 .projects-section {
     padding: 20px;
     text-align: center;
@@ -287,6 +288,7 @@ nav ul li a {
     gap: 20px;
 }
 
+/* Card de Projetos */
 .project-card {
     background: #fff;
     border: 1px solid #ddd;
