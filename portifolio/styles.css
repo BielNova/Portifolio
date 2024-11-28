@@ -329,6 +329,57 @@ nav ul li a {
     transition: background 0.3s ease;
 }
 
+
 .project-card button:hover {
     background: #0056b3;
 }
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #1b1e3c;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff5da2; 
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+  }
+  
+  .nav-links li {
+    position: relative;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background: linear-gradient(45deg, #ff5da2, #00d2ff);
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .nav-links a:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .nav-links a:active {
+    transform: scale(0.95);
+  }
+  
+  .nav-links a:hover {
+    background: linear-gradient(45deg, #00d2ff, #ff5da2);
+  }
+  
