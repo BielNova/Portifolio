@@ -225,13 +225,14 @@ header {
     font-size: 1rem;
     margin-top: 10px;
     color: #ccc;
-}
-.profile-picture {
-    max-width: 150px;
-    border-radius: 40%;
-    margin-bottom: 30;
-}
-/* Geral */
+.img-oval {
+    width: 200px; 
+    height: 230px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border: 3px solid #ff5da2; 
+  }
 body {
     font-family: Arial, sans-serif;
     margin: 0;
