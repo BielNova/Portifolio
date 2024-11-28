@@ -225,6 +225,7 @@ header {
     font-size: 1rem;
     margin-top: 10px;
     color: #ccc;
+}
 .img-oval {
     width: 200px; 
     height: 230px; 
@@ -263,7 +264,6 @@ nav ul li a {
     text-decoration: none;
 }
 
-/* Seção de Projetos */
 .projects-section {
     padding: 20px;
     text-align: center;
@@ -287,7 +287,6 @@ nav ul li a {
     gap: 20px;
 }
 
-/* Card de Projetos */
 .project-card {
     background: #fff;
     border: 1px solid #ddd;
